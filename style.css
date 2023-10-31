@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(95, 105, 160);
+    color: black;
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: black;
+    color: rgb(255, 152, 92);
+}
+
+.button{
+    background-color: rgb(255, 228, 212);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgb(255, 159, 104),
+    0 0 25px rgb(255, 159, 104);
+}
+.button:hover {
+    box-shadow: 0px 0px 10px 5px rgb(255, 159, 104)
+}
